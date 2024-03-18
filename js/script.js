@@ -28,15 +28,14 @@ function encriptar(){
         textoEncrip.textContent = "Texto Encriptado Con Exito";
         comentario.textContent ="";
     }  else {
-        alert("Ingrese un Texto");
+        alert("Ingrese Un Texto");
    }                   
 }
 function desencriptar(){
     let texto = document.getElementById( "texto" ).value;
     let textoEncrip = document.getElementById("texto-Encrip");
     let comentario  = document.getElementById('comentario');
-    //texto.tolowerCase();
-    //alert(texto);
+    
     let textoCifradado = texto
                          .replace(/ufat/gi, "u")
                          .replace(/ober/gi, "o")
