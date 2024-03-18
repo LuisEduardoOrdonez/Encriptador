@@ -1,0 +1,191 @@
+body{
+  background-color: rgb(189, 220, 230);
+}
+.main {
+  width: 90%;
+  height: 800px;  
+  margin: auto;
+ 
+}
+
+.cabezera{
+  position: relative;
+  width: 90%;
+  height: 25%;
+  margin: auto;
+  top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+}
+
+.texto{
+    position: absolute;
+    width: 42%;
+    height: 50%;
+    left: 6%;
+    resize: none;
+    color:#000000;
+    margin-top: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    padding: 20px;
+}
+
+.mensaje{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  width: 80%;
+  left: 9%;
+  top: 65%;
+}
+
+.mensaje p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.botones{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1%;
+  position: absolute;
+  width: 80%;
+  left: 6%;
+  top: 70%;
+}
+
+.botonEncriptar{
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  width: 14%;
+  margin-left: 5%;
+  border-radius: 30px;
+  background: #0A3871;
+  color: #ffffff;
+}
+
+.botonDesencriptar{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  width: 14%;
+  margin-left: 5%;
+  border-radius: 30px;
+  background: #d8dfe8;
+}
+
+.botonCopiar{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  width: 14%;
+  margin-left: 5%;
+  border-radius: 30px;
+  background: #5581bb;
+}
+.botonEncriptar:hover, .botonDesencriptar:hover, .botonCopiar:hover{
+  
+  width: 14.3%;
+  padding: 2.2%;
+  margin-left: 5%;
+}
+
+.seccionDos{
+  display: block;
+  justify-content: center;
+  position: absolute;
+  border: #000000 solid 1px;
+  width: 27%;
+  height: 71%;
+  left: 62%;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+.textoDesencriptado {
+  display: flex;
+  width: 90%;
+  height: 210px;
+  margin-top: 25px;
+  margin-left: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 27px;
+  text-align: center;
+  border-radius: 20px;
+  resize: none;
+  
+}
+
+.seccionDos img{
+  width: 75%;
+  margin-left: 13%;
+}
+
+.msjEncriptado{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  position: absolute;
+  width: 90%; 
+ 
+}
+.msjEncriptado h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 750; 
+}
+.msjEncriptado p{
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  position: relative;
+  top: 15px;
+}
+.desencriptando{
+  display: flex;
+  width: 80%;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 15px;
+}
+
+#footer{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0px;
+  background-color: #0A3871;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  box-shadow: 0px 0px 2px rgb(238, 242, 244);
+}
+
+a:visited{
+  color: #f08f57;
+}

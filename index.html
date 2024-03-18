@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="cabezera">         
+        <h1 ><img class="logo" src="img/Logo.png" alt="">Proyecto Encriptador Alura</h1>        
+    </header>
+
+    <main class="main">
+        <section class="seccionUno">
+            <div class="encriptar">
+                <textarea class="texto" id="texto" cols="30" rows="10" placeholder="Ingrece Texto Aqui" oninput="validarTexto()"></textarea>
+            </div>
+            <div class="mensaje">
+                <p>Solo letras minusculas y sin acentos.</p>
+            </div>
+            <div class="botones">
+                <button class="botonEncriptar" type="button" onclick="encriptar()">Encriptar</button>
+                <button class="botonDesencriptar" type="button" onclick="desencriptar()">Desencriptar</button> 
+                <button class="botonCopiar" id="botonCop" type="button" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+
+        <section class="seccionDos">
+            <div>
+            <img src="img/Muñeco.png" alt="">
+            </div>
+            <div class="msjEncriptado">
+                <h2 id="texto-Encrip">Ningun Mensaje Encontrado</h2>
+                <p id="comentario">Ingrese el texto que deseas copiar</p>
+                <div class ="AreaCopia">
+                <textarea class="textoDesencriptado" name="" id="textoDesencriptado" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <p>&copy; Desarrollado por Luis Ordoñez & Alura Latam.</p>
+        <p>Mas Contenido en <a  href="https://aluracursos.com">Alura Latam</a></p>
+
+    </footer>
+    
+</body>
+<script src="js/script.js"></script>
+</html>
